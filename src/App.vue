@@ -32,18 +32,18 @@
         employees: [
         {
           id: 1,
-          name: 'Richard Hendricks',
-          email: 'richard@piedpiper.com',
+          name: 'Victor Pravo',
+          email: 'vpravo.com',
         },
         {
           id: 2,
-          name: 'Bertram Gilfoyle',
-          email: 'gilfoyle@piedpiper.com',
+          name: 'Rembrandt Rey',
+          email: 'rrey.com',
         },
         {
           id: 3,
-          name: 'Dinesh Chugtai',
-          email: 'dinesh@piedpiper.com',
+          name: 'Taka Got',
+          email: 'tgot.com',
         },
       ],
       }

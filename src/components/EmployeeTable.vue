@@ -7,8 +7,10 @@
           <th>Employee email</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
+      <tbody v-for="employee in employees" :key ="employee.id">
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.email }}</td>
+        <!-- <tr>
           <td>Victor Pravo</td>
           <td>vpravo@vpravo.com</td>
         </tr>
@@ -19,7 +21,7 @@
         <tr>
           <td>Taka Got</td>
           <td>tgot@tgot.com</td>
-        </tr>
+        </tr> -->
       </tbody>
     </table>
   </div>
